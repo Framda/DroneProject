@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="603.0" prefWidth="995.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="exam02.Main">
+   <children>
+      <Button layoutX="14.0" layoutY="44.0" minHeight="40.0" minWidth="100.0" mnemonicParsing="false" text="Som" />
+      <Button layoutX="114.0" layoutY="44.0" minHeight="40.0" minWidth="100.0" mnemonicParsing="false" text="yee jueng" />
+      <Button layoutX="14.0" layoutY="103.0" mnemonicParsing="false" text="Drone" />
+      <BorderPane layoutX="370.0" layoutY="19.0" prefHeight="200.0" prefWidth="200.0">
+         <top>
+            <Button mnemonicParsing="false" text="Button" BorderPane.alignment="CENTER" />
+         </top>
+         <left>
+            <Button mnemonicParsing="false" text="Button" BorderPane.alignment="CENTER" />
+         </left>
+         <right>
+            <Button mnemonicParsing="false" text="Button" BorderPane.alignment="CENTER" />
+         </right>
+         <bottom>
+            <Button mnemonicParsing="false" text="Button" BorderPane.alignment="CENTER" />
+         </bottom>
+         <center>
+            <Button mnemonicParsing="false" text="Button" BorderPane.alignment="CENTER" />
+         </center>
+      </BorderPane>
+      <HBox layoutX="615.0" layoutY="19.0" prefHeight="100.0" prefWidth="200.0">
+         <children>
+            <Button mnemonicParsing="false" text="Button" />
+            <Button mnemonicParsing="false" text="Button" />
+            <Button mnemonicParsing="false" text="Button" />
+         </children>
+      </HBox>
+      <VBox layoutX="615.0" layoutY="49.0" prefHeight="200.0" prefWidth="100.0">
+         <children>
+            <Button mnemonicParsing="false" text="Button" />
+            <Button mnemonicParsing="false" text="Button" />
+            <Button mnemonicParsing="false" text="Button" />
+         </children>
+      </VBox>
+      <SplitPane dividerPositions="0.3939393939393939" layoutX="112.0" layoutY="134.0" orientation="VERTICAL" prefHeight="200.0" prefWidth="200.0">
+        <items>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+               <children>
+                  <Button layoutX="14.0" layoutY="3.0" mnemonicParsing="false" text="Button" />
+                  <Button layoutX="93.0" layoutY="40.0" mnemonicParsing="false" text="Button" />
+                  <Button layoutX="14.0" layoutY="51.0" mnemonicParsing="false" text="Button" />
+               </children>
+            </AnchorPane>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+               <children>
+                  <Button layoutX="14.0" layoutY="14.0" mnemonicParsing="false" text="Button" />
+                  <Button layoutX="91.0" layoutY="14.0" mnemonicParsing="false" text="Button" />
+               </children>
+            </AnchorPane>
+        </items>
+      </SplitPane>
+      <StackPane layoutX="470.0" layoutY="289.0" prefHeight="150.0" prefWidth="200.0">
+         <children>
+            <AnchorPane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #F00;" />
+            <AnchorPane prefHeight="200.0" prefWidth="200.0">
+               <children>
+                  <Button layoutX="7.0" layoutY="14.0" mnemonicParsing="false" text="Button" />
+               </children>
+            </AnchorPane>
+         </children>
+      </StackPane>
+   </children>
+</AnchorPane>
